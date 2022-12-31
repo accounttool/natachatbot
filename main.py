@@ -15,17 +15,17 @@ from pymongo import MongoClient
 from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
 
 
-API_ID = os.environ.get("API_ID", None) 
-API_HASH = os.environ.get("API_HASH", None) 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-MONGO_URL = os.environ.get("MONGO_URL", None)
-BOT_USERNAME = os.environ.get("BOT_USERNAME") 
-UPDATE_CHNL = os.environ.get("UPDATE_CHNL")
-OWNER_ID = os.environ.get("OWNER_ID")
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME")
-SUPPORT_GRP = os.environ.get("SUPPORT_GRP")
-BOT_NAME = os.environ.get("BOT_NAME")
-START_IMG1 = os.environ.get("START_IMG1")
+API_ID = os.environ.get("API_ID", "14443867") 
+API_HASH = os.environ.get("API_HASH", "46ab81bdbf98137173153b27ec7904b2") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5648176397:AAEVxFSOXiYs1VKzbeHjPbatu7zv0MoFhiM") 
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://natisam:natisam@cluster1.aznu9uy.mongodb.net/?retryWrites=true&w=majority")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "Nataxhelpro_bot") 
+UPDATE_CHNL = os.environ.get("UPDATE_CHNL", "accounttool")
+OWNER_ID = os.environ.get("OWNER_ID", "5448287981")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "Nati_sam223")
+SUPPORT_GRP = os.environ.get("SUPPORT_GRP", "sn_robot_chat")
+BOT_NAME = os.environ.get("BOT_NAME", Nata)
+START_IMG1 = os.environ.get("START_IMG1", "https://te.legra.ph/file/4bddbe9b45cdc4e497294.jpg")
 START_IMG2 = os.environ.get("START_IMG2")
 START_IMG3 = os.environ.get("START_IMG3")
 START_IMG4 = os.environ.get("START_IMG4")
@@ -127,7 +127,7 @@ DEV_OP = [
         InlineKeyboardButton(text="🚀 ʜᴇʟᴘ & ᴄᴍᴅs 🚀", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
+        InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="NATI"),
         InlineKeyboardButton(text="☁️ ᴀʙᴏᴜᴛ ☁️", callback_data="ABOUT"),
     ],
 ]
